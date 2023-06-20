@@ -1,0 +1,141 @@
+
+body{
+
+    background-color: rgb(87, 81, 101);
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+
+h1 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 50px ;
+   color: rgb(254, 254, 254);
+   
+
+
+   
+}
+
+.flex-container {
+    background-color: rgb(184, 227, 255);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+    flex-wrap: wrap;
+
+    
+}
+
+.caja {
+    border: solid black;
+    border-radius: 10px;
+    display: flex;
+    height: 100px;
+    width: 100px;
+      
+}
+   
+
+.caja1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.caja2 p:nth-child(1) {
+    align-self: flex-end;
+  
+}
+
+
+
+.caja3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.caja3 p:nth-child(1){
+    align-self: flex-end;
+}
+.caja3 p:nth-child(2){
+    align-self: center;
+}
+.caja3 p:nth-child(3){
+    align-self: flex-start;
+}
+
+
+
+.caja4 {
+    display: flex;
+    flex-direction: column;
+}
+.caja4 div {
+    display: flex;
+    justify-content: space-between;
+}
+.caja4 p:nth-child(1){
+   align-self: flex-start;
+    
+}
+.caja4 p:nth-child(2){
+    align-self: flex-end
+}
+.caja4 p:nth-child(3){
+    align-self: flex-start
+}
+.caja4 p:nth-child(4){
+    align-self: flex-end
+} 
+
+
+.caja5 {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.caja5 div:nth-child(2){
+    display: flex;
+    align-items: center;
+}
+.caja5 div:nth-child(1),.caja5 div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.caja5 div p{
+    margin: 0px;
+}
+
+
+
+.caja6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja6{
+    display: flex;
+    justify-content: space-between;
+}
+
+.caja6 p:nth-child(1) {
+    align-self: flex-end;
+  
+}
+
